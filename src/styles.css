@@ -1,3 +1,26 @@
 * {
-    color: red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+
+    background-color: rgb(48, 35, 71);
+}
+
+div#content {
+    background-color: rgb(106, 71, 204);
+    padding: 24px;
+
+    color: white;
+}
+
+img {
+    height: 300px;
 }
