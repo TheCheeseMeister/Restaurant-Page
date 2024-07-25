@@ -25,13 +25,13 @@ for (let i = 0; i < buttons.length; i++) {
         
         switch(event.target.getAttribute('id')) {
             case "home":
-                createHome();
+                document.body.appendChild(createHome());
                 break;
             case "menu":
-                createMenu();
+                document.body.appendChild(createMenu());
                 break;
             case "about":
-                createAbout();
+                document.body.appendChild(createAbout());
                 break;
         }
     });

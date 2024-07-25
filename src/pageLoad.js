@@ -7,7 +7,7 @@ export function createContent() {
     const pic = new Image();
     pic.src = Bros;
 
-    const heading = document.createElement('header');
+    const heading = document.createElement('h1');
     heading.textContent = "Two Blowing Bros";
 
     const para = document.createElement('p');
